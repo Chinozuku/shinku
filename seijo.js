@@ -64,7 +64,7 @@ $(document).ready(function(){
 		"drawCallback": function ( settings ) {
             var api = this.api();
             var rows = api.rows( {page:'current'} ).nodes();
-            var last=null;
+            var last = null;
 			
 			//iteration through every data
             api.column(0, {page:'current'} ).data().each( function ( group, i ) {
